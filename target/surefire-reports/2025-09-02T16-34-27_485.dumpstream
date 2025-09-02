@@ -1,0 +1,5 @@
+# Created at 2025-09-02T16:34:27.754
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Eclipse Workspace\OrangeHRM\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

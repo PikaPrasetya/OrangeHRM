@@ -1,0 +1,6 @@
+PageObjects\loginPage.class
+PageObjects\basePage.class
+TestCases\baseTest.class
+PageObjects\dashboardPage.class
+TestCases\TC001_login.class
+Utilities\driverManager.class

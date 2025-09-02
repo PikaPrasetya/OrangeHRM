@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-02T16:56:56 WIB" name="Default suite" finished-at="2025-09-02T16:56:59 WIB" duration-ms="3799">
+    <groups>
+      <group name="positive">
+        <method signature="TC001_login.login()[pri:0, instance:TestCases.TC001_login@a37aefe]" name="login" class="TestCases.TC001_login"/>
+      </group> <!-- positive -->
+    </groups>
+    <test started-at="2025-09-02T16:56:56 WIB" name="Default test" finished-at="2025-09-02T16:56:59 WIB" duration-ms="3799">
+      <class name="TestCases.TC001_login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.TC001_login@a37aefe]" started-at="2025-09-02T16:56:56 WIB" name="setup" finished-at="2025-09-02T16:56:57 WIB" duration-ms="1705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:TestCases.TC001_login@a37aefe]" started-at="2025-09-02T16:56:57 WIB" name="login" finished-at="2025-09-02T16:56:59 WIB" duration-ms="1883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC001_login@a37aefe]" started-at="2025-09-02T16:56:59 WIB" name="tearDown" finished-at="2025-09-02T16:56:59 WIB" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC001_login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

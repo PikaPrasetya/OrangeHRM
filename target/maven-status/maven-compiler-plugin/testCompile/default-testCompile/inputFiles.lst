@@ -1,0 +1,15 @@
+D:\Eclipse Workspace\OrangeHRM\src\test\java\PageObjects\basePage.java
+D:\Eclipse Workspace\OrangeHRM\src\test\java\PageObjects\dashboardPage.java
+D:\Eclipse Workspace\OrangeHRM\src\test\java\PageObjects\loginPage.java
+D:\Eclipse Workspace\OrangeHRM\src\test\java\PageObjects\pimPage.java
+D:\Eclipse Workspace\OrangeHRM\src\test\java\TestCases\baseTest.java
+D:\Eclipse Workspace\OrangeHRM\src\test\java\TestCases\TC001_login.java
+D:\Eclipse Workspace\OrangeHRM\src\test\java\TestCases\TC002_addEmployee.java
+D:\Eclipse Workspace\OrangeHRM\src\test\java\TestCases\TC003_addExistingEmployee.java
+D:\Eclipse Workspace\OrangeHRM\src\test\java\Utilities\databaseConnection.java
+D:\Eclipse Workspace\OrangeHRM\src\test\java\Utilities\dataProviders.java
+D:\Eclipse Workspace\OrangeHRM\src\test\java\Utilities\driverManager.java
+D:\Eclipse Workspace\OrangeHRM\src\test\java\Utilities\excelManager.java
+D:\Eclipse Workspace\OrangeHRM\src\test\java\Utilities\extentReportConfig.java
+D:\Eclipse Workspace\OrangeHRM\src\test\java\Utilities\randomizer.java
+D:\Eclipse Workspace\OrangeHRM\src\test\java\Utilities\screenshot.java

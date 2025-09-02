@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test for employee id 003]]>
+    </line>
+    <line>
+      <![CDATA[Test for employee id 004]]>
+    </line>
+    <line>
+      <![CDATA[Test for employee id 005]]>
+    </line>
+    <line>
+      <![CDATA[Test for employee id 003]]>
+    </line>
+    <line>
+      <![CDATA[Test for employee id 004]]>
+    </line>
+    <line>
+      <![CDATA[Test for employee id 005]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-09-02T17:44:49 WIB" name="Suite" finished-at="2025-09-02T17:45:40 WIB" duration-ms="51579">
+    <groups>
+      <group name="negative">
+        <method signature="TC003_addExistingEmployee.addExistingId()[pri:0, instance:TestCases.TC003_addExistingEmployee@8c3619e]" name="addExistingId" class="TestCases.TC003_addExistingEmployee"/>
+      </group> <!-- negative -->
+      <group name="positive">
+        <method signature="TC002_addEmployee.fillEmployeeData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestCases.TC002_addEmployee@3ad2e17]" name="fillEmployeeData" class="TestCases.TC002_addEmployee"/>
+        <method signature="TC002_addEmployee.checkDatabase(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:TestCases.TC002_addEmployee@3ad2e17]" name="checkDatabase" class="TestCases.TC002_addEmployee"/>
+        <method signature="TC001_login.login()[pri:0, instance:TestCases.TC001_login@38aa816f]" name="login" class="TestCases.TC001_login"/>
+      </group> <!-- positive -->
+    </groups>
+    <test started-at="2025-09-02T17:44:49 WIB" name="Test" finished-at="2025-09-02T17:45:40 WIB" duration-ms="51579">
+      <class name="TestCases.TC003_addExistingEmployee">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.TC003_addExistingEmployee@8c3619e]" started-at="2025-09-02T17:45:29 WIB" name="setup" finished-at="2025-09-02T17:45:31 WIB" duration-ms="1263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addExistingId()[pri:0, instance:TestCases.TC003_addExistingEmployee@8c3619e]" started-at="2025-09-02T17:45:31 WIB" name="addExistingId" finished-at="2025-09-02T17:45:40 WIB" duration-ms="9311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addExistingId -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC003_addExistingEmployee@8c3619e]" started-at="2025-09-02T17:45:40 WIB" name="tearDown" finished-at="2025-09-02T17:45:40 WIB" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC003_addExistingEmployee -->
+      <class name="TestCases.TC001_login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.TC001_login@38aa816f]" started-at="2025-09-02T17:44:49 WIB" name="setup" finished-at="2025-09-02T17:44:50 WIB" duration-ms="1682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:TestCases.TC001_login@38aa816f]" started-at="2025-09-02T17:44:50 WIB" name="login" finished-at="2025-09-02T17:44:52 WIB" duration-ms="1865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC001_login@38aa816f]" started-at="2025-09-02T17:44:52 WIB" name="tearDown" finished-at="2025-09-02T17:44:53 WIB" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC001_login -->
+      <class name="TestCases.TC002_addEmployee">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.TC002_addEmployee@3ad2e17]" started-at="2025-09-02T17:44:53 WIB" name="setup" finished-at="2025-09-02T17:44:54 WIB" duration-ms="1285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="fillEmployeeData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestCases.TC002_addEmployee@3ad2e17]" started-at="2025-09-02T17:44:55 WIB" name="fillEmployeeData" data-provider="New Employee" finished-at="2025-09-02T17:45:06 WIB" duration-ms="11478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestQA1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[003]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C:\Users\Pika\Pictures\Photo sample OrangeHRM.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test for employee id 003]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fillEmployeeData -->
+        <test-method signature="fillEmployeeData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestCases.TC002_addEmployee@3ad2e17]" started-at="2025-09-02T17:45:06 WIB" name="fillEmployeeData" data-provider="New Employee" finished-at="2025-09-02T17:45:17 WIB" duration-ms="11444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestQA2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Efgh]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[004]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C:\Users\Pika\Pictures\Photo sample OrangeHRM2.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test for employee id 004]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fillEmployeeData -->
+        <test-method signature="fillEmployeeData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestCases.TC002_addEmployee@3ad2e17]" started-at="2025-09-02T17:45:17 WIB" name="fillEmployeeData" data-provider="New Employee" finished-at="2025-09-02T17:45:29 WIB" duration-ms="11470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestQA3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adsasd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Xyz]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[005]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test for employee id 005]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fillEmployeeData -->
+        <test-method signature="checkDatabase(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:TestCases.TC002_addEmployee@3ad2e17]" started-at="2025-09-02T17:45:29 WIB" name="checkDatabase" data-provider="New Employee" finished-at="2025-09-02T17:45:29 WIB" depends-on-methods="TestCases.TC002_addEmployee.fillEmployeeData" duration-ms="211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestQA1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[003]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C:\Users\Pika\Pictures\Photo sample OrangeHRM.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test for employee id 003]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkDatabase -->
+        <test-method signature="checkDatabase(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:TestCases.TC002_addEmployee@3ad2e17]" started-at="2025-09-02T17:45:29 WIB" name="checkDatabase" data-provider="New Employee" finished-at="2025-09-02T17:45:29 WIB" depends-on-methods="TestCases.TC002_addEmployee.fillEmployeeData" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestQA2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Efgh]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[004]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C:\Users\Pika\Pictures\Photo sample OrangeHRM2.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test for employee id 004]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkDatabase -->
+        <test-method signature="checkDatabase(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:TestCases.TC002_addEmployee@3ad2e17]" started-at="2025-09-02T17:45:29 WIB" name="checkDatabase" data-provider="New Employee" finished-at="2025-09-02T17:45:29 WIB" depends-on-methods="TestCases.TC002_addEmployee.fillEmployeeData" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestQA3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adsasd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Xyz]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[005]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test for employee id 005]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkDatabase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC002_addEmployee@3ad2e17]" started-at="2025-09-02T17:45:29 WIB" name="tearDown" finished-at="2025-09-02T17:45:29 WIB" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC002_addEmployee -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
